@@ -1,0 +1,62 @@
+###########################################
+# Controls for keyboard
+
+numcars			= 2
+numPlayerRaceCars	= 2
+numOpponentRaceCars	= 0
+commmode		= GameSetup_kSplitScreen
+
+car[0].cartype          = GameSetup_kMacLaren_F1
+car[0].carclass		= GameSetup_kHuman
+car[0].Transmission 	= GameSetup_kAutoTrans
+car[0].frontDownForce 	= 65536
+car[0].rearDownForce 	= 65536
+car[0].SteeringSensitivity = 65536
+car[0].BrakeBias 	= 0
+car[0].GearRatio 	= 65536
+car[0].Colour  		= 0
+car[0].RampSteering 	= 1
+car[0].RampGas 		= 1
+car[0].RampBrake 	= 1
+
+C1_RIGHT        = key,SC_RIGHT
+C1_LEFT         = key,SC_LEFT
+C1_GAS          = key,SC_UP
+C1_BRAKE        = key,SC_DOWN
+C1_HANDBRAKE    = key,SC_HOME
+C1_SHIFTUP      = key,SC_INS
+C1_SHIFTDOWN    = key,SC_DEL
+C1_CYCLECAMERA  = key,SC_PGUP
+C1_LOOKBEHIND   = key,SC_PGDN
+C1_HORN         = key,SC_END
+
+car[1].cartype		= GameSetup_kItalD_CALA
+car[1].carclass		= GameSetup_kHuman
+car[1].Transmission 	= GameSetup_kAutoTrans
+car[1].frontDownForce 	= 65536
+car[1].rearDownForce 	= 65536
+car[1].SteeringSensitivity = 65536
+car[1].BrakeBias 	= 0
+car[1].GearRatio 	= 65536
+car[1].Colour  		= 1
+car[1].RampSteering 	= 1
+car[1].RampGas 		= 1
+car[1].RampBrake 	= 1
+
+C2_RIGHT        = key,SC_F
+C2_LEFT         = key,SC_S
+C2_GAS          = key,SC_E
+C2_BRAKE        = key,SC_D
+C2_HANDBRAKE    = key,SC_W
+C2_SHIFTUP      = key,SC_Q
+C2_SHIFTDOWN    = key,SC_A
+C2_CYCLECAMERA  = key,SC_R
+C2_LOOKBEHIND   = key,SC_Z
+C2_HORN         = key,SC_T
+
+kSetDebugMode   = NULL
+kUp             = NULL
+kDown           = NULL
+kLeft           = NULL
+kRight          = NULL
+kDecreaseYaw    = NULL

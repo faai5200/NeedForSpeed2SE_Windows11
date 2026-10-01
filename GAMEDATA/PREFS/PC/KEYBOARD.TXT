@@ -1,0 +1,25 @@
+###########################################
+# Controls for keyboard
+
+C1_RIGHT        = key,SC_RIGHT
+C1_LEFT         = key,SC_LEFT
+C1_GAS          = key,SC_UP
+C1_BRAKE        = key,SC_DOWN
+C1_HANDBRAKE    = key,SC_SPACE
+C1_SHIFTUP      = key,SC_A
+C1_SHIFTDOWN    = key,SC_Z
+C1_HORN         = key,SC_H
+C1_CYCLECAMERA  = key,SC_C
+C1_LOOKBEHIND   = key,SC_B
+C1_TOGGLEHUD	= key,SC_F5
+
+car[0 to numCars ].RampSteering = 1
+car[0 to numCars ].RampGas = 1
+car[0 to numCars ].RampBrake = 1
+
+kSetDebugMode   = NULL
+kUp             = NULL
+kDown           = NULL
+kLeft           = NULL
+kRight          = NULL
+kDecreaseYaw    = NULL

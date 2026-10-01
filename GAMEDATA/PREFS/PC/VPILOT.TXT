@@ -1,0 +1,19 @@
+###########################################
+# Controls for standard 4 button joystick
+
+C1_LEFT         = Analog,0,0,120,8
+C1_RIGHT        = Analog,0,0,136,247
+C1_GAS          = Analog,0,2,239,16
+C1_BRAKE        = Analog,0,3,239,16
+C1_SHIFTUP      = Button,0,0
+C1_SHIFTDOWN    = Button,0,1
+C1_HANDBRAKE    = Button,0,2
+C1_HORN         = Button,0,3
+C1_CYCLECAMERA  = key,SC_C
+C1_LOOKBEHIND   = key,SC_B
+C1_TOGGLEHUD	= key,SC_F5
+
+car[0 to numCars ].RampSteering = 0
+car[0 to numCars ].RampGas = 0
+car[0 to numCars ].RampBrake = 0
+

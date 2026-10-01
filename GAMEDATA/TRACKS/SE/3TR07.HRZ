@@ -1,0 +1,47 @@
+/*Cloud dome offset*/
+-50,	200,
+
+/* Black horizon flag */
+0,
+
+/* Mirror Flag */
+1,
+
+/* The radius of the horizon */
+1000,
+
+/* The angle of rotation for the horizon in degrees. */
+0,
+
+/* The distace to horizon for flat projection (should be <= to radius) */
+600,
+
+/* How high in the air the base of the Gourad shaded area is (world offset). */
+-750,
+
+/* Height of the Gourad shaded area (offset from base) */
+1250,
+
+/* Midpoint of Gourad shaded area (offset from base) */
+875,
+
+/* Top of horizon pixmap (offset from base) */
+1100,
+ 
+/* Bottom of horizon pixmap (offset from base) */
+700,
+
+/* r,g,b value at top of Gourad shaded EARTH area */
+165,156,165,
+
+/* r,g,b value at base of Gourad shaded EARTH area */
+100,100,100,
+
+/* r,g,b value at top of Gourad shaded SKY area */
+176,161,176,
+
+/* r,g,b values for base of Gourad shaded SKY area */
+66,49,82,			/* 237, 166, 59, at position of sun */
+181,173,181,			/* 150, 110, 30, at position opposite to sun */
+
+

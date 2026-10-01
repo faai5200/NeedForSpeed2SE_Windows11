@@ -1,0 +1,126 @@
+# Game options
+
+RaceType        = GameSetup_kSingleRace
+NumLaps         = 2
+Skill           = GameSetup_kExpert
+Style           = GameSetup_kSimStyle
+CommMode        = GameSetup_kNoComm
+ForceDevice     = GameSetup_kNoForce
+Random			= 1234567
+CatchUpLogic    =  1
+Track           =  5
+Time            =  0
+Replay			=  0
+SpeedRecord     =  0
+
+numSmackables	= 3
+
+numCars             = 8
+lineup	= 0,1,2,3,4,5,6,7,8,9,10,11
+
+LocalCar		=  0
+NumPlayerRaceCars       = 1
+NumOpponentRaceCars     = 0
+OpponentCarType         = 0
+
+windowsize = 0
+graphicsdetail = 0
+viewdistance = 0
+horizondisplay = 0
+
+musiclevel = 127
+sfxlevel = 127
+
+###########################################
+# CAR NAMES DEFINITIONS
+# PLAYER CARS	- GameSetup_kMacLaren_F1  = 0
+#				- GameSetup_kFerrari_F50  = 1  
+#				- GameSetup_kFord_GT90	  = 2 ** available
+#				- GameSetup_kFord_INDIGO  = 3
+#				- GameSetup_kJaguar_XJ220 = 4
+#				- GameSetup_kLotus_GT1	  = 5
+#				- GameSetup_kLotus_V8	  = 6 ** available
+#				- GameSetup_kItalD_CALA	  = 7
+#				- GameSetup_kIsdera_112i  = 8 ** available
+#
+# TRAFFIC CARS	- please enter defines here
+###########################################
+
+car[0 to numCars ].carType              = GameSetup_kJaguar_XJ220
+car[1 to numCars ].carType              = GameSetup_kFord_GT90
+car[2 to numCars ].carType              = GameSetup_kFord_GT90
+car[3 to numCars ].carType              = GameSetup_kFord_GT90
+car[4 to numCars ].carType              = 14
+car[5 to numCars ].carType              = 13
+car[6 to numCars ].carType              = 16
+car[7 to numCars ].carType              = 15
+
+car[0 to numCars ].Transmission = GameSetup_kAutoTrans
+car[0 to numCars ].RampSteering = 1
+car[0 to numCars ].RampGas = 1
+car[0 to numCars ].RampBrake = 1
+car[0 to numCars ].frontDownForce = 65536
+car[0 to numCars ].rearDownForce = 65536
+car[0 to numCars ].SteeringSensitivity = 65536
+car[0 to numCars ].BrakeBias = 0
+car[0 to numCars ].GearRatio = 65536
+
+car[0 to numCars ].Colour  		= 0
+car[1 to numCars ].Colour  		= 1
+car[2 to numCars ].Colour  		= 2
+car[3 to numCars ].Colour  		= 3
+car[4 to numCars ].Colour  		= 4
+car[5 to numCars ].Colour  		= 5
+car[6 to numCars ].Colour  		= 6
+car[7 to numCars ].Colour  		= 7
+
+car[0            ].carClass     = GameSetup_kHuman
+car[1 to 3       ].carClass     = GameSetup_kAI
+car[4 to numCars ].carClass  	= GameSetup_kTraffic
+
+# Input mappings for Windows 95
+
+MAINEXIT        = Key,SC_ESC
+
+CONTROL			= JOYSTICK
+
+I_UP            = key,SC_UP
+I_DOWN          = key,SC_DOWN
+I_LEFT          = Key,SC_LEFT
+I_RIGHT         = Key,SC_RIGHT
+I_SELECT        = Key,SC_ENTER
+I_PAUSE         = Key,SC_P
+I_CAPTURE       = Key,SC_F10
+I_DETAIL		= Key,SC_F5
+I_SCREENSIZE	= Key,SC_F6
+I_INTERLACE		= Key,SC_F7
+
+
+kSetDebugMode   = Key,SC_SPACE
+kUp             = Key,SC_UP
+kDown           = Key,SC_DOWN
+kLeft           = Key,SC_LEFT
+kRight          = Key,SC_RIGHT
+kDecreaseYaw    = Key,SC_A
+kIncreaseYaw    = Key,SC_D
+kZoomIn         = Key,SC_PGUP
+kZoomOut        = Key,SC_PGDN
+kDecreasePitch  = Key,SC_S
+kIncreasePitch  = Key,SC_W
+kDecreaseRoll   = Key,SC_Q
+kIncreaseRoll   = Key,SC_E
+kReset          = Key,SC_R
+kSaveLocation   = Key,SC_O
+kLoadLocation   = Key,SC_I
+kSpeed          = Key,SC_ALT
+kRotationSwitch = Key,SC_LSHIFT
+
+#These are used for car mounting in Camera_Debug
+DEBUG_KEY18     = Key,SC_END 
+DEBUG_KEY19     = Key,SC_HOME
+DEBUG_KEY20     = Key,SC_DEL
+DEBUG_KEY26     = Key,SC_F4
+DEBUG_KEY27     = Key,SC_F3
+DEBUG_KEY28     = Key,SC_F1
+DEBUG_KEY29     = Key,SC_F2
+
